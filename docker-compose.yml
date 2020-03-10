@@ -6,6 +6,6 @@ services:
       - "8080:8080"
       - "50000:50000"
     volumes:
-      - ../data/jenkins:/var/jenkins_home
+      - ./data/jenkins:/var/jenkins_home
     container_name: jenkins
 
